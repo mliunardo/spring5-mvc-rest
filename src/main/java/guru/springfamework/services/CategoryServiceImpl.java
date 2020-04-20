@@ -9,6 +9,7 @@ import guru.springfamework.api.v1.mapper.CategoryMapper;
 import guru.springfamework.api.v1.model.CategoryDTO;
 import guru.springfamework.repositories.CategoryRepository;
 
+@Service
 public class CategoryServiceImpl implements CategoryService{
 
 	private final CategoryRepository categoryRepository;
